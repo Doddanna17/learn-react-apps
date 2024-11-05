@@ -128,3 +128,26 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Ignore Node files in pizza-app subdirectory
+pizza-app/node_modules/
+pizza-app/package-lock.json
+pizza-app/yarn.lock
+pizza-app/logs/
+pizza-app/*.log
+pizza-app/npm-debug.log*
+pizza-app/yarn-debug.log*
+pizza-app/yarn-error.log*
+pizza-app/.env
+pizza-app/.env.local
+pizza-app/.env.development.local
+pizza-app/.env.test.local
+pizza-app/.env.production.local
+pizza-app/.npm/
+pizza-app/.yarn-integrity
+pizza-app/.cache/
+pizza-app/.parcel-cache
+pizza-app/.next/
+pizza-app/dist/
+pizza-app/.nuxt/
+pizza-app/.docusaurus/
